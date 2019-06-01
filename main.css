@@ -1,0 +1,29 @@
+.site-content{
+	background: rgb(69,63,251);
+	background: radial-gradient(circle, rgba(69,63,251,1) 0%, rgba(70,205,252,1) 100%);
+	color:#0e1a2f;
+	height: 100vh;
+	font-family: monospace;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+}
+.site-header-content{
+	margin: 10px;
+}
+.img-select{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	box-shadow: #0f2f5f 2px 5px 5px;
+}
+.my-link{
+	color:#0e1a2f;
+
+}
+
+body{
+
+	margin: 0;
+}
