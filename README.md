@@ -1,2 +1,3 @@
-# maansingh.netlify
+http://maansingh.netlify.com
+
 
