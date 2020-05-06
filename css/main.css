@@ -333,6 +333,9 @@ footer a:hover{
 	.introduction-text a{
 		font-size: 1.4rem;
 	}
+	.introduction-body{
+		padding: 0 4.1rem;
+	}
 }
 
 @media screen and (max-width: 320px){
