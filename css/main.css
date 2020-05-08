@@ -57,24 +57,25 @@ header a:hover{
 .introduction-body{
 	display: flex;
     height: 100vh;
-    background-color: #0b0c10;
+	background-image: url(../images/computer.jpg);
     min-height: 100vh;
     align-items: center;
     padding: 0 4.6rem;
-    font-weight: 400;
-    z-index: -1;
-    color: #cfcf;
+    background-size: cover;
+	height: auto;
+	background-position: center;
 }
 
 .introduction-text{
 	text-align: center;
-	height: auto;
-	
+	height: auto;	
 }
 
 .introduction-text h1{
 	font-size: 1.4rem ;
 	margin-bottom: 20px;
+	color: rgba(255, 255, 230, 0.7);
+	font-weight: 500;
 }
 
 .introduction-text p{
@@ -85,33 +86,47 @@ header a:hover{
 span{
 	display: inline-block;
 }
+span.text {
+    padding: 0;
+    padding-right: 4px;
+    border-right: 2px solid white;
+    animation: blink 0.75s infinite;
+  }
 
-.introduction-body a{
+.know-more{
 	text-decoration: none;
-	color: cornsilk;
+	color: white;
 	text-transform: uppercase;
 	font-size: 1.2rem;
-	background: linear-gradient(to right, salmon 50%, #0b0c10 50%);
+	background: linear-gradient(to right, #2f9bcc 50%, #0000 50%);
 	background-position: right bottom;
-	color: salmon;
+	color: #2f9bcc;
 	background-size: 200% 100%;
-    font-weight: 600;
-    border: 1px solid salmon;
+    font-weight: 500;
+	border: 1px solid #2f9bcc;
+	border-radius: 5px;
     padding: 5px 10px;
 }
-.introduction-body a:hover{
+.know-more:hover{
 	background-position: left bottom;
 	transition: 0.2s all ease;
 }
 
-.introduction-body a:hover{
+.know-more:hover{
 	color: cornsilk;
 	transition: 0.6s all ease-in-out;
+}
+.typewrite{
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	font-weight: 500;
 }
 
 .name{
 	font-size: 2rem;
-	color: brown;
+	color: rgb(255, 255, 250);
+	text-transform: uppercase;
 }
 
 /* .image{
@@ -124,14 +139,15 @@ span{
 	filter: blur(2px);
 	-webkit-filter: blur(2px);
 } */
+
 h2{
-	color: burlywood;
-	margin: auto;
-    margin-bottom: 20px;
+	color: white;
+	margin: 0 auto;
     width: 80%;
     padding: 20px;
     font-size: 2rem;
-    text-transform: uppercase;
+	text-transform: uppercase;
+	align-self: center;
 }
 
 .about-box{
@@ -181,7 +197,7 @@ h2{
 	padding: 15px;
 } */
 .sec-text{
-	color: #cfc;
+	color: rgba(255, 255, 230, 0.7);
     font-size: 1.3rem;
     margin: auto;
     padding: 20px;
@@ -192,7 +208,7 @@ h2{
 .sec-project{
 	background-color: #0b0c10 ;
 	box-sizing: border-box;
-	color: #cfc;
+	color: rgba(255, 255, 230, 0.7);
 	height: auto;
 }
 
@@ -222,11 +238,14 @@ h2{
 }
 
 .sec-skills{
-	background-color: rgb(255, 255, 250);
+	background-color: rgba(255, 255, 255, 0.9);
 	min-height: 50vh;
     height: 100%;
 	padding: 20px 20px;
 	font-size: 30px;
+}
+.sec-skills h2{
+	color: #1d202b;
 }
 
 .img-skill{
@@ -275,6 +294,10 @@ footer a:hover{
 	transform: translateY(-3px);
 	color: rgba(255, 255, 230, 1);
 	transition: 0.2s all ease-in-out;
+}
+
+footer h4{
+	font-weight: 300;
 }
 
 .loader-wrapper {
